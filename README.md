@@ -7,5 +7,12 @@ You can add following alias to `~/.bashrc` to start sublime with fix so file.
 
 Then you can alway start with `st` in console.
 
+Maybe you should change the key map in sublime-text if you are using
+`<ctrl-space>` to change to chinese input.
+
+    [
+      { "keys": ["ctrl+k"], "command": "set_mark" }
+    ]
+
 ### Read More
 http://c4fun.cn/blog/2013/11/30/linux-sublimetext-chinese/
